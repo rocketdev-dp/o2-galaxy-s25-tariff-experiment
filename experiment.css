@@ -1,0 +1,42 @@
+/* Only injected cards */
+.cro-o2-injected,
+.cro-o2-injected o2uk-commercial-tariff-card.tariff-card {
+  overflow: visible !important;
+}
+
+/* Match existing card shadow */
+.cro-o2-injected .new-tariff-card__container {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.05), 0 0 12px 0 rgba(0,0,0,.1) !important;
+}
+
+/* Remove blue top bar effect on injected only */
+.cro-o2-injected o2uk-commercial-tariff-card.tariff-card {
+  border-top: none !important;
+}
+
+/* Roof = Online Exclusive */
+.cro-o2-injected .tariff-card__roof {
+  background: #953698 !important;
+  color: #fff !important;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Container sits neatly under roof */
+.cro-o2-injected .new-tariff-card__container {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* Spacing only for our injected offer popup content */
+.cdk-overlay-container .os-content .cro-offer-body p {
+  margin: 0 0 20px !important;
+}
+
+/* remove extra gap on last paragraph */
+.cdk-overlay-container .os-content .cro-offer-body p:last-child {
+  margin-bottom: 0 !important;
+}
